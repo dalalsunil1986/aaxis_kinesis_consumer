@@ -1,0 +1,25 @@
+{
+  "name": "aaxis_kinesis_consumer",
+  "version": "1.0.0",
+  "description": "A simple Kinesis consumer to log real-time data on your console.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "atob": "^2.0.3",
+    "btoa": "^1.1.2",
+    "async": "~0.9.0",
+    "aws-sdk": "2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunyoboy/aaxis_kinesis_consumer.git"
+  },
+  "author": "Joel Capillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hunyoboy/aaxis_kinesis_consumer/issues"
+  },
+  "homepage": "https://github.com/hunyoboy/aaxis_kinesis_consumer#readme"
+}
