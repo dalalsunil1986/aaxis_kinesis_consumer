@@ -3,18 +3,18 @@
 var credentials = require('./credentials');
 
 var config = module.exports = {
-  kinesis : {
+  kinesis: {
     accessKeyId: credentials.accessKeyId,
     secretAccessKey: credentials.secretAccessKey,
     // Region for the Amazon Kinesis stream.
-    region : credentials.region
+    region: credentials.region
   },
 
-  clickStreamConsumer : {    
-    stream : credentials.stream,
+  clickStreamConsumer: {
+    stream: credentials.stream,
     // Total shards in the specified Amazon Kinesis stream.
-    shards : 2,
-    shardType : 'LATEST',
+    shards: 2,
+    shardType: 'LATEST',
     limit: 100
   }
 };

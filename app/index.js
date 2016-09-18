@@ -9,5 +9,5 @@ AWS.config.update({
     secretAccessKey: config.kinesis.secretAccessKey
 });
 
-var kinesis = new AWS.Kinesis({region: config.kinesis.region});
+var kinesis = new AWS.Kinesis({ region: config.kinesis.region });
 consumer(kinesis, config.clickStreamConsumer).run();
